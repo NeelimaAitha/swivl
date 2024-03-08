@@ -2,34 +2,51 @@ POST http://localhost:3000/users
 Content-Type:application/json
 
 {
-    "username":"neelima08",
-    "name":"Aitha neelima08",
-    "password":"neelima@08",
-    "gender":"Female",
-    "location":"Hyderabad"
+    "username":"ganesh007",
+    "name":"Ganesh Kumar",
+    "password":"Ganesh$07",
+    "gender":"male",
+    "location":"Nalgonda"
 }
 
-###
 
+###
+POST http://localhost:3000/users
+Content-Type:application/json
+
+{
+    "username":"kavya19",
+    "name":"Kavyasree",
+    "password":"kavya@19",
+    "gender":"female",
+    "location":"Kollapur"
+}
+
+
+###
 POST http://localhost:3000/login/
 Content-Type:application/json
 
 {
-    "username":"neelima08",
-    "password":"neelima@08"
+    "username":"ganesh007",
+    "password":"Ganesh$07"
 }
+
 
 ###
 GET http://localhost:3000/profile/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDAwNyIsInBhc3N3b3JkIjoiR2FuZXNoJDA3IiwiaWF0IjoxNzA5ODE0MjA0fQ.UQBojTA699-_7AGBG75gNzZ44QMz1uiLTYEOKD7iheo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDAwNyIsInBhc3N3b3JkIjoiR2FuZXNoJDA3IiwiaWF0IjoxNzA5ODc4ODk3fQ.5mmPW_2FaeCpJqAg1DUp68yQhm1fxj5EOPYQLBuB8JY
 
 
 ###
 GET http://localhost:3000/recipes
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDAwNyIsInBhc3N3b3JkIjoiR2FuZXNoJDA3IiwiaWF0IjoxNzA5ODE0MjA0fQ.UQBojTA699-_7AGBG75gNzZ44QMz1uiLTYEOKD7iheo
+
+
 ###
 GET http://localhost:3000/recipes/15/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDAwNyIsInBhc3N3b3JkIjoiR2FuZXNoJDA3IiwiaWF0IjoxNzA5ODE0MjA0fQ.UQBojTA699-_7AGBG75gNzZ44QMz1uiLTYEOKD7iheo
+
 
 ###
 POST http://localhost:3000/recipes/
@@ -44,6 +61,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imdhb
     "imageUrl":"https://img.freepik.com/free-photo/flat-lay-pakistani-food-arrangement_23-2148825110.jpg?t=st=1709816530~exp=1709820130~hmac=35629e7e0212f0c42b371d5e2afd9f0238c33988e0e4894de86fbd5701211aa0&w=826"
 }
 
+
 ###
 POST http://localhost:3000/recipes/
 Content-Type: application/json
@@ -57,9 +75,9 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imdhb
     "imageUrl":"https://img.freepik.com/free-photo/front-close-view-fried-fishes-lemon-slices-brown-plate-spices-tomatoes-oil-bottle-mix-colors-table-with-free-space_179666-18174.jpg?t=st=1709821481~exp=1709825081~hmac=582171d9296445c82191389913ea71bb2c24a96affcd7a3e1bd805c09576776a&w=900"
 }
 
+
 ###
-###
-PUT http://localhost:3000/recipes/15/
+PUT http://localhost:3000/recipes/18/
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDAwNyIsInBhc3N3b3JkIjoiR2FuZXNoJDA3IiwiaWF0IjoxNzA5ODE0MjA0fQ.UQBojTA699-_7AGBG75gNzZ44QMz1uiLTYEOKD7iheo
 
@@ -71,6 +89,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imdhb
     "imageUrl":"https://img.freepik.com/premium-photo/arabic-food-kabsa-with-chicken-almonds-closeup-plate-generative-ai_779468-4840.jpg?w=900"
 }
 
+
 ###
-DELETE http://localhost:3000/recipes/3/
+DELETE http://localhost:3000/recipes/19/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdhbmVzaDAwNyIsInBhc3N3b3JkIjoiR2FuZXNoJDA3IiwiaWF0IjoxNzA5ODE0MjA0fQ.UQBojTA699-_7AGBG75gNzZ44QMz1uiLTYEOKD7iheo
