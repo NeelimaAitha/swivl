@@ -38,7 +38,7 @@ const authenticateToken = async (request, response, next) => {
     response.send("Invalid Access Token");
   }
   if (jwtToken !== undefined) {
-    jwt.verify(jwtToken, "ganikey", async (error, payload) => {
+    jwt.verify(jwtToken, "neekey", async (error, payload) => {
       if (error) {
         response.status(401);
         response.send("Invalid Access Token");
