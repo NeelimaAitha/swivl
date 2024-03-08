@@ -2,11 +2,11 @@ POST http://localhost:3000/users
 Content-Type:application/json
 
 {
-    "username":"ganesh007",
-    "name":"Ganesh Kumar",
-    "password":"Ganesh$07",
-    "gender":"male",
-    "location":"Nalgonda"
+    "username":"neelima08",
+    "name":"Aitha neelima08",
+    "password":"neelima@08",
+    "gender":"Female",
+    "location":"Hyderabad"
 }
 
 
@@ -15,11 +15,11 @@ POST http://localhost:3000/users
 Content-Type:application/json
 
 {
-    "username":"kavya19",
-    "name":"Kavyasree",
-    "password":"kavya@19",
-    "gender":"female",
-    "location":"Kollapur"
+    "username":"pasha05",
+    "name":"AzeezPasha",
+    "password":"pasha@05",
+    "gender":"male",
+    "location":"Hyderabad"
 }
 
 
@@ -28,8 +28,8 @@ POST http://localhost:3000/login/
 Content-Type:application/json
 
 {
-    "username":"ganesh007",
-    "password":"Ganesh$07"
+    "username":"neelima08",
+    "password":"neelima@08"
 }
 
 
